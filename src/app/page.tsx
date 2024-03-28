@@ -13,7 +13,7 @@ export default function Home() {
         <Image
           src={avatar}
           alt="João Vitor"
-          className="h-40 w-40 rounded-full border-8 border-white shadow-lg"
+          className="h-32 w-32 rounded-full border-8 border-white shadow-lg sm:h-40 sm:w-40"
         />
       </header>
 
@@ -36,8 +36,8 @@ function WhoAmISection() {
     <section>
       <h2>Who am I?</h2>
       <p>
-        My name is João Vitor &ldquo;John&rdquo; and I’m a 25 years old software
-        engineer, based in Brazil (UTC-3).
+        My name is João Vitor and I’m a 25 years old software engineer based in
+        Brazil (UTC-3).
       </p>
       <p>
         I was planning on becoming a Graphic Designer after high school but I
@@ -125,8 +125,8 @@ function WhatIAmExcitedAboutSection() {
         </Link>
         .
       </p>
-      <div className="grid gap-8 sm:grid-cols-2">
-        <div className="not-prose relative flex flex-col overflow-hidden rounded-lg shadow-lg">
+      <div className="mt-10 grid gap-8 sm:grid-cols-2">
+        <div className="not-prose relative flex flex-col overflow-hidden rounded shadow-lg">
           <Image
             src={teaching1}
             alt="Teaching React to interns"
@@ -136,7 +136,7 @@ function WhatIAmExcitedAboutSection() {
             #01 - That’s me pointing to the screen.
           </p>
         </div>
-        <div className="not-prose relative flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div className="not-prose relative flex flex-col overflow-hidden rounded shadow-lg">
           <Image
             src={teaching2}
             alt="Teaching React to interns"
@@ -315,20 +315,6 @@ function ProjectsIAmProudSection() {
         a server, using JavaScript, React, React Native and Node.js, during the
         week.
       </p>
-      <div className="flex gap-4">
-        <iframe
-          className="mx-auto aspect-video w-3/4"
-          src="https://www.youtube.com/embed/_LUoegLwDYE"
-          allowFullScreen
-          title="Next Level Week | Together - Opening video"
-        />
-        <iframe
-          src="https://www.linkedin.com/embed/feed/update/urn:li:share:6804092503382347777"
-          className="mx-auto aspect-video w-3/4"
-          allowFullScreen
-          title="Next Level Week | Together - Online meeting"
-        />
-      </div>
     </section>
   );
 }
