@@ -333,7 +333,7 @@ function ProjectsIAmProudSection() {
   );
 }
 
-export function LetsBuildTogether() {
+function LetsBuildTogether() {
   return (
     <section>
       <h2>Let’s build together!</h2>
