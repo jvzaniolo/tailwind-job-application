@@ -18,7 +18,7 @@ export default function Home() {
       </header>
 
       <main className="pb-20">
-        <div className="prose dark:prose-invert prose-a:underline-offset-4 prose-p:my-3 prose-indigo mx-auto max-w-screen-lg px-8">
+        <div className="prose dark:prose-invert prose-a:underline-offset-4 prose-p:my-3 prose-sky mx-auto max-w-screen-lg px-8">
           <h1>João Vitor &ldquo;John&rdquo; de Oliveira</h1>
           <WhoAmISection />
           <WhatIAmExcitedAboutSection />
