@@ -36,7 +36,7 @@ function WhoAmISection() {
     <section>
       <h2>Who am I?</h2>
       <p>
-        My name is João Vitor and I’m a 25 years old software engineer based in
+        My name is João Vitor and I’m a 25-year-old software engineer based in
         Brazil (UTC-3).
       </p>
       <p>
@@ -44,7 +44,7 @@ function WhoAmISection() {
         was introduced to software development and fell in love with it.
       </p>
       <p>
-        I graduated on Computer Science and focused my career on frontend
+        I graduated in Computer Science and focused my career on frontend
         development since it was the closest thing I had to a drawing board.
       </p>
       <p>
@@ -52,7 +52,7 @@ function WhoAmISection() {
         what I would describe as a “dream job”.
       </p>
       <p>
-        Having a keen eye for details and thinking outside the box is what sets
+        Having a keen eye for detail and thinking outside the box is what sets
         me apart from other developers.
       </p>
     </section>
@@ -64,37 +64,37 @@ function WhatIAmExcitedAboutSection() {
     <section>
       <h2>What am I excited about?</h2>
       <p>
-        I like building beautifully designed applications, but what really
-        excites me is building tools for other people to use (dotfiles, zsh
-        plugins, pipelines, CLIs, etc.).
+        I like building beautifully designed applications, but what excites me
+        is building tools for other people to use (dotfiles, zsh plugins,
+        pipelines, CLIs, etc.).
       </p>
 
       <h3>New technologies</h3>
       <p>
         Keeping up-to-date with the latest technologies, watching conferences
-        (can’t wait for Svelte Summit and React Conf.) and trying new things is
-        a big part of why I love being a software engineer.
+        (can’t wait for Svelte Summit and React Conf.), and trying new things
+        are a big part of why I love being a software engineer.
       </p>
       <h4>Fun fact</h4>
       <p>I’m learning Rust to build fast and reliable developer tools.</p>
       <p>
         That was something I decided to do because there is a movement in the
-        JavaScript tooling ecosystem to use Rust (Vite, SWC, Tailwind v4 and
+        JavaScript tooling ecosystem to use Rust (Vite, SWC, Tailwind v4, and
         many more).
       </p>
       <p>
-        Since I want to build my own tools and contribute to existing projects,
-        I figured it would be a good choice.
+        Since I want to build my tools and contribute to existing projects, I
+        figured it would be a good choice.
       </p>
 
       <h3>Design Systems</h3>
       <p>
         Creating Design Systems (literally every company I worked for asked me
-        to build one) is one of my favorites projects to work on.
+        to build one) is one of my favorite projects to work on.
       </p>
       <p>
-        Designing the components, the API, making it easy to use and yet
-        extendable, is something I could spend weeks working without getting
+        Designing the components, and the API, making it easy to use and yet
+        extendable, is something I could spend weeks working on without getting
         tired.
       </p>
       <p>
@@ -104,7 +104,7 @@ function WhatIAmExcitedAboutSection() {
 
       <h3>Teaching</h3>
       <p>
-        Since college I knew that teaching was going to be a important part of
+        Since college, I knew that teaching was going to be an important part of
         my career.
       </p>
       <p>
@@ -112,11 +112,11 @@ function WhatIAmExcitedAboutSection() {
         opportunity.
       </p>
       <p>
-        Here’s some photos of me teaching React to the interns from my previous
-        company:
+        Here are some photos of me teaching React to the interns from my
+        previous company:
       </p>
       <p>
-        You can check the full course I prepared in this Notion page:{' '}
+        You can check the full course I prepared on this Notion page:{' '}
         <Link
           href="https://workshop-react.notion.site/Workshop-React-e7f288c0f79f4ad789280e12b7f90d20"
           external
@@ -260,7 +260,7 @@ function ProjectsIAmProudSection() {
         for almost two years.
       </p>
       <p>
-        I was part of the Purchase team. We handled the cart, checkout and
+        I was part of the Purchase team. We handled the cart, checkout, and
         payment experiences of the e-commerce website.
       </p>
       <p>Here’s some of the feedback I received during my time there:</p>
@@ -269,7 +269,7 @@ function ProjectsIAmProudSection() {
         <p>Lead Frontend Developer</p>
         <blockquote>
           Proud of João for finding new ways to improve the team (referring to
-          GitHub comments/feedback/follow up work)
+          GitHub comments/feedback/follow-up work)
         </blockquote>
 
         <h4>Megan Deppen</h4>
@@ -277,7 +277,7 @@ function ProjectsIAmProudSection() {
         <blockquote>
           João Vitor has learned a ton in his time at Backcountry and I’ve seen
           him grow into a forward-thinking, proactive, helpful developer. His
-          positive attitude and enthusiasm for the team has helped build the
+          positive attitude and enthusiasm for the team have helped build the
           great culture we had on the Purchase Team. Though he is early on in
           his career, he’ll be valued at any organization once he learns the lay
           of the land.
@@ -294,16 +294,16 @@ function ProjectsIAmProudSection() {
         Brazil.
       </p>
       <p>
-        That’s where I started learning React, React Native and Node.js, and I
+        That’s when I started learning React, React Native, and Node.js, and I
         got very fun of the work they did and I wanted to participate.
       </p>
       <p>
-        I was selected to join a group of alumnis called{' '}
+        I was selected to join a group of alumni called{' '}
         <Link href="https://www.instagram.com/spacesquad.oficial/" external>
           Space Squad
         </Link>
         , where I would help newcomers with their assignments and questions, and
-        participate on future project discussions.
+        participate in future project discussions.
       </p>
       <p>
         One of those projects was the{' '}
@@ -311,8 +311,8 @@ function ProjectsIAmProudSection() {
           Next Level Week
         </Link>{' '}
         event, where I helped put together an online and free event where
-        developers would learn how to build a web site, a mobile application and
-        a server, using JavaScript, React, React Native and Node.js, during the
+        developers would learn how to build a website, a mobile application, and
+        a server, using JavaScript, React, React Native, and Node.js, during the
         week.
       </p>
     </section>
