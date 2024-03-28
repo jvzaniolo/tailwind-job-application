@@ -18,7 +18,7 @@ export default function Home() {
       </header>
 
       <main className="pb-20">
-        <div className="prose dark:prose-invert prose-a:underline-offset-4 prose-p:my-3 prose-sky mx-auto max-w-screen-lg px-8">
+        <div className="prose prose-sky mx-auto max-w-screen-lg px-8 dark:prose-invert prose-p:my-3 prose-a:underline-offset-4">
           <h1>João Vitor &ldquo;John&rdquo; de Oliveira</h1>
           <WhoAmISection />
           <WhatIAmExcitedAboutSection />
@@ -275,8 +275,8 @@ function ProjectsIAmProudSection() {
         <h4>Megan Deppen</h4>
         <p>Product Manager</p>
         <blockquote>
-          João Vitor has learned a ton in this time at Backcountry and I’ve seen
-          him frow into a forward-thinking, proactive, helpful developer. His
+          João Vitor has learned a ton in his time at Backcountry and I’ve seen
+          him grow into a forward-thinking, proactive, helpful developer. His
           positive attitude and enthusiasm for the team has helped build the
           great culture we had on the Purchase Team. Though he is early on in
           his career, he’ll be valued at any organization once he learns the lay
