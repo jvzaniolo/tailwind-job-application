@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="bg-zinc-50 text-slate-950 dark:bg-zinc-900"
+        className="bg-zinc-50 text-slate-950 dark:bg-zinc-900 dark:text-white"
         style={inter.style}
       >
         {children}
