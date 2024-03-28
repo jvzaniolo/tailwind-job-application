@@ -126,26 +126,26 @@ function WhatIAmExcitedAboutSection() {
         .
       </p>
       <div className="mt-10 grid gap-8 sm:grid-cols-2">
-        <div className="not-prose relative flex flex-col overflow-hidden rounded shadow-lg">
+        <figure className="not-prose group relative flex flex-col overflow-hidden rounded shadow-lg transition-transform duration-300 hover:-rotate-[0.5deg]">
           <Image
             src={teaching1}
             alt="Teaching React to interns"
-            className="aspect-[4/3] object-cover"
+            className="aspect-[4/3] object-cover transition-transform duration-500 ease-out group-hover:scale-105"
           />
-          <p className="absolute inset-x-0 bottom-0 bg-gradient-to-b from-transparent to-black py-6 text-center font-medium text-white">
+          <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-b from-transparent to-black py-6 text-center font-medium text-white">
             #01 - That’s me pointing to the screen.
-          </p>
-        </div>
-        <div className="not-prose relative flex flex-col overflow-hidden rounded shadow-lg">
+          </figcaption>
+        </figure>
+        <figure className="not-prose group relative flex flex-col overflow-hidden rounded shadow-lg transition-transform duration-300 hover:rotate-[0.5deg]">
           <Image
             src={teaching2}
             alt="Teaching React to interns"
-            className="aspect-[4/3] object-cover object-left"
+            className="aspect-[4/3] object-cover object-left transition-transform duration-500 ease-out group-hover:scale-105"
           />
-          <p className="absolute inset-x-0 bottom-0 bg-gradient-to-b from-transparent to-black py-6 text-center font-medium text-white">
+          <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-b from-transparent to-black py-6 text-center font-medium text-white">
             #02 - That’s me on the left and my fellow interns.
-          </p>
-        </div>
+          </figcaption>
+        </figure>
       </div>
     </section>
   );

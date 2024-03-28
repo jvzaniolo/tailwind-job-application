@@ -11,7 +11,7 @@ export function Link({ external, children, ...props }: LinkProps) {
   };
   return (
     <NextLink
-      className="inline-flex items-center gap-0.5"
+      className="group inline-flex items-center gap-0.5"
       {...props}
       {...(external ? externalProps : {})}
     >
@@ -22,7 +22,7 @@ export function Link({ external, children, ...props }: LinkProps) {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             fill="currentColor"
-            className="h-4 w-4"
+            className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
           >
             <path
               fillRule="evenodd"
